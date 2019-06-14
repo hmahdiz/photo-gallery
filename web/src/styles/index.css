@@ -80,13 +80,16 @@ li:hover {
   height: 100%;
   border: double;
   padding: 1%;
+  border-radius: 4px;
 }
 
 .appContent {
   border: groove;
   width: 50%;
+  border-radius: 4px;
 }
 
 .appContainerAlarm {
   background-color: #eea5a5;
+  border-radius: 4px;
 }

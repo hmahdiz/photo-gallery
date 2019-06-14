@@ -11,7 +11,7 @@ import {
   AppContainer,
   AppContent
 } from "./components";
-import profilePicture from "./assets/profile-men.jpeg";
+// import profilePicture from "./assets/profile-men.jpeg";
 import "./styles/index.css";
 
 ReactDOM.render(
@@ -21,11 +21,11 @@ ReactDOM.render(
       <AppTitle big>This is Big APP Title</AppTitle>
       <AppContent>
         <AppForm>
-          <AppImage
+          {/*<AppImage
             src={profilePicture}
             alt="Profile Picture"
             title="Profile Picture"
-          />
+          />*/}
           <AppTitle small>Hamideh</AppTitle>
           <AppText>This is Hamideh Mehdizadeh</AppText>
           {/* <AppRadioButton /> */}
