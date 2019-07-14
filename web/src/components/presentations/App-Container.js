@@ -4,12 +4,12 @@ const appContainer = ({ children }) => {
   const alarm =
     children && !children.length && children.type.name === "appContent"
       ? null
-      : "App Content should be used in App containr";
+      : "App-Panel should be used inside App-containr";
 
   console.log();
   return (
     <div className="appContainer">
-      <span>{alarm}</span>
+      <span className="appContainerAlarm">{alarm}</span>
       {children}
     </div>
   );

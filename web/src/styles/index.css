@@ -83,13 +83,20 @@ li:hover {
   border-radius: 4px;
 }
 
-.appContent {
+.appPanel {
   border: groove;
   width: 50%;
   border-radius: 4px;
+  margin: 0.5%;
 }
 
 .appContainerAlarm {
   background-color: #eea5a5;
   border-radius: 4px;
+}
+
+.appLabel {
+  float: left;
+  text-align: center;
+  margin: 6px;
 }

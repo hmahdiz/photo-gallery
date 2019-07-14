@@ -6,7 +6,8 @@ import AppTitle from "./presentations/App-Title";
 import AppRadioButton from "./presentations/App-Radio-Button";
 import AppList from "./presentations/App-List";
 import AppContainer from "./presentations/App-Container";
-import AppContent from "./presentations/App-Content";
+import AppPanel from "./presentations/App-Panel";
+import AppLabel from "./presentations/App-Label";
 
 export {
   AppContainer,
@@ -17,5 +18,6 @@ export {
   AppTitle,
   AppRadioButton,
   AppList,
-  AppContent
+  AppPanel,
+  AppLabel
 };

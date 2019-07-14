@@ -9,29 +9,34 @@ import {
   AppRadioButton,
   AppList,
   AppContainer,
-  AppContent
+  AppPanel,
+  AppLabel
 } from "./components";
 // import profilePicture from "./assets/profile-men.jpeg";
 import "./styles/index.css";
 
 ReactDOM.render(
   <div>
-    <AppContent>App Content Without Container</AppContent>
+    <AppPanel>App-Panel Without App-Container</AppPanel>
     <AppContainer>
       <AppTitle big>This is Big APP Title</AppTitle>
-      <AppContent>
-        <AppForm>
+      <AppPanel>
+        <AppForm
+          onSubmit={e => {
+            alert("Submit");
+            e.preventDefault();
+          }}
+        >
           {/*<AppImage
             src={profilePicture}
             alt="Profile Picture"
             title="Profile Picture"
           />*/}
           <AppTitle small>Hamideh</AppTitle>
+          <AppLabel>About:</AppLabel>
           <AppText>This is Hamideh Mehdizadeh</AppText>
           {/* <AppRadioButton /> */}
-          <AppButton onClick={() => alert("ok")} success>
-            Ok
-          </AppButton>
+          <AppButton success>Ok</AppButton>
           <AppButton onClick={() => alert("Cancel")} danger>
             Cancel
           </AppButton>
@@ -49,7 +54,7 @@ ReactDOM.render(
             order
           />
         </AppForm>
-      </AppContent>
+      </AppPanel>
     </AppContainer>
   </div>,
   document.getElementById("root")
