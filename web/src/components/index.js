@@ -1,13 +1,13 @@
-import AppText from "./presentations/App-Text";
-import AppButton from "./presentations/App-Button";
-import AppImage from "./presentations/App-Image";
-import AppForm from "./presentations/App-Form";
-import AppTitle from "./presentations/App-Title";
-import AppRadioButton from "./presentations/App-Radio-Button";
-import AppList from "./presentations/App-List";
-import AppContainer from "./presentations/App-Container";
-import AppPanel from "./presentations/App-Panel";
-import AppLabel from "./presentations/App-Label";
+import AppText from "./App-Text";
+import AppButton from "./App-Button";
+import AppImage from "./App-Image";
+import AppForm from "./App-Form";
+import AppTitle from "./App-Title";
+import AppRadioButton from "./App-Radio-Button";
+import AppList from "./App-List";
+import AppContainer from "./App-Container";
+import AppPanel from "./App-Panel";
+import AppLabel from "./App-Label";
 
 export {
   AppContainer,
